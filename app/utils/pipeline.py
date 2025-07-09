@@ -172,9 +172,10 @@ def build_graph():
     #     # If no follow up, go straight to retrieve docs
     #     return "retrieve_documents"
     def should_ask_questions(state: ConversationState):
-        if state.ready_for_recommendation:
+        if state.ready_for_recommendation or state.follow_up_count >= 2:
             return "retrieve_documents"
         if state.is_follow_up:
+            state.follow_up_count += 1  # Increment follow-up count
             return "ask_questions"
         return "retrieve_documents"
 
@@ -188,7 +189,7 @@ def build_graph():
     graph.add_edge("ask_questions", "analyze_answers")
 
     def decide_after_answers(state: ConversationState):
-        if state.ready_for_recommendation:
+        if state.ready_for_recommendation or state.follow_up_count >= 2:
             return "retrieve_documents"
         # Not enough info, end the conversation for now.
         # The user can continue the conversation, which will trigger a new run.

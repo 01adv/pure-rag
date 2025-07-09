@@ -31,6 +31,8 @@ class ConversationState(BaseModel):
     ready_for_recommendation: bool = (
         False  # Flag indicating readiness for recommendation
     )
+    follow_up_count: int = 0  # Track number of follow-ups
+
 
     def __init__(self, **data):
         super().__init__(**data)
