@@ -3,6 +3,7 @@ pandas==2.2.3
 openpyxl==3.1.5
 chromadb==1.0.9
 openai==1.79.0
+gunicorn
 uvicorn==0.34.2
 fastapi==0.115.9
 loguru==0.7.3
