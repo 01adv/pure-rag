@@ -1,0 +1,40 @@
+name,benefits,ingredients,description,price
+Hydration Serum,"Deeply hydrates, strengthens skin barrier","Hyaluronic Acid, Aloe Vera, Niacinamide","Deeply hydrates and strengthens the skin barrier with soothing ingredients.",45
+Glow Boost Serum,"Brightens skin tone, reduces dark spots","Vitamin C, Niacinamide, Licorice Root Extract","Brightens skin tone and reduces dark spots for a radiant complexion.",50
+Rejuvenating Eye Cream,"Reduces puffiness, dark circles, fine lines","Caffeine, Peptides, Botanical Extracts","Reduces puffiness and smooths fine lines around the eyes.",35
+Daily Moisturizer,"Hydrates, protects skin","Ceramides, Squalane, Shea Butter","Lightweight hydration with a protective barrier for all-day moisture.",30
+Exfoliating Scrub,"Smooths texture, unclogs pores","Jojoba Beads, Fruit Enzymes, Green Tea Extract","Gently exfoliates for smoother, brighter skin.",20
+Vitamin C Serum,"Brightens, fades discoloration","Vitamin C, Ferulic Acid, Hyaluronic Acid","Brightens and evens skin tone with antioxidant protection.",55
+Jade Roller,"Improves circulation, reduces puffiness","100% Natural Jade","Promotes lymphatic drainage and enhances product absorption.",75
+Repairing Night Cream,"Repairs skin, hydrates, enhances elasticity","Peptides, Hyaluronic Acid, Ceramides","Repairs skin overnight for a firmer, hydrated complexion.",40
+Refreshing Facial Toner,"Balances pH, tightens pores","Rose Water, Witch Hazel, Cucumber Extract","Refreshes and balances skin with soothing ingredients.",28
+Brightening Toner,"Evens skin tone, reduces pigmentation","Vitamin C, Witch Hazel, Cucumber Extract","Brightens and balances skin for an even complexion.",30
+Nourishing Shampoo,"Hydrates, strengthens hair","Argan Oil, Keratin, Aloe Vera","Hydrates and strengthens hair for a shiny, healthy look.",22
+Clarifying Shampoo,"Removes buildup, refreshes scalp","Tea Tree Oil, Witch Hazel, Aloe Vera","Cleanses and balances oily scalps without dryness.",24
+Herbal Shampoo,"Nourishes, strengthens roots","Botanical Extracts, Coconut Oil, Aloe Vera","Cleanses and nourishes hair for shine and strength.",19
+Gentle Hair Mask,"Hydrates, repairs, reduces frizz","Argan Oil, Shea Butter, Keratin","Repairs and smooths hair for softness and shine.",35
+Herbal Body Wash,"Cleanses, refreshes skin","Aloe Vera, Essential Oils, Botanical Cleansers","Gently cleanses and hydrates skin with a refreshing scent.",18
+Soothing Aloe Gel,"Soothes irritation, Hydrates, Reduces redness","Aloe Vera, Green Tea Extract, Glycerin","Calm and hydrate irritated skin with aloe vera and green tea. This lightweight gel soothes redness, sunburn, and dryness for instant comfort.",16
+Purifying Clay Mask,"Cleanses pores, Detoxifies, Minimizes pores","Kaolin Clay, Charcoal, Tea Tree Oil","Detoxify and refine your skin with kaolin clay, charcoal, and tea tree oil. Clears pores, reduces oil, and leaves skin balanced.",27
+Volumizing Shampoo,"Adds volume, Strengthens hair, Lightweight formula","Biotin, Collagen, Bamboo Extract","Lift and energize your hair with biotin, collagen, and bamboo extract. Adds volume and body for fuller-looking hair.",23
+Color Protect Shampoo,"Protects color, Shields from UV, Adds shine","Sunflower Seed Extract, UV Filters, Vitamin E","Shield your hair color with sunflower extract, UV filters, and vitamin E. Gently cleanses while preventing fade and damage.",26
+Citrus Burst Body Wash,"Gentle cleanse, Citrus scent, Softens skin","Orange Extract, Grapefruit Extract, Coconut-Based Cleansers","Infused with orange and grapefruit, this refreshing wash cleanses gently and leaves skin soft, revived, and citrus-scented.",20
+Calming Lavender Body Wash,"Soothes skin, Hydrates, Relaxing lavender scent","Lavender Oil, Chamomile Extract, Aloe Vera","Relax and cleanse with lavender oil and chamomile. Soothes skin and senses while hydrating and calming irritation.",21
+Pore Refining Toner,"Minimizes pores, Controls oil, Soothes skin","Witch Hazel, Niacinamide, Green Tea Extract","Tighten pores and control oil with witch hazel, niacinamide, and green tea. Leaves skin refreshed and smooth.",29
+Hydrating Rose Toner,"Hydrates, Soothes, Preps skin","Rose Water, Hyaluronic Acid, Allantoin","Replenish and prep your skin with rose water and hyaluronic acid. Soothes and hydrates for a dewy, refreshed look.",32
+
+
+01adv: from these selected products, extract them into csv format like this:
+name,benefits,ingredients,description,price
+Hydration Serum,"Deeply hydrates, strengthens skin barrier","Hyaluronic Acid, Aloe Vera, Niacinamide","Deeply hydrates and strengthens the skin barrier with soothing ingredients.",45
+Glow Boost Serum,"Brightens skin tone, reduces dark spots","Vitamin C, Niacinamide, Licorice Root Extract","Brightens skin tone and reduces dark spots for a radiant complexion.",50
+
+Ultra Rich Face Cream,"Deep nourishment, Strengthens barrier, Softens skin.","Shea Butter, Jojoba Oil, Ceramides","Experience intense nourishment with our Ultra Rich Face Cream. Formulated with shea butter, jojoba oil, and ceramides, it deeply hydrates, repairs dry patches, and leaves your skin feeling soft, supple, and protected all day.",42  
+Matte Finish Moisturizer,"Oil control, Hydrates, Minimizes pores.","Niacinamide, Green Tea Extract, Silica","Control shine and hydrate with our Matte Finish Moisturizer. Lightweight and oil-free, it features niacinamide and green tea to balance oil production, minimize pores, and leave your skin with a smooth, matte finish.",34  
+Sensitive Skin Barrier Cream,"Soothes irritation, Repairs barrier, Reduces redness.","Oat Extract, Panthenol, Ceramides","Soothe and protect sensitive skin with our Barrier Cream. Enriched with oat extract, panthenol, and ceramides, it calms irritation, reduces redness, and restores the skin’s natural barrier for lasting comfort.",38  
+Firming Peptide Serum,"Firms skin, Smooths wrinkles, Boosts collagen.","Peptides, Vitamin E, Collagen","Revitalize your skin with our Firming Peptide Serum. Packed with advanced peptides, collagen boosters, and antioxidants, it visibly firms, lifts, and smooths for a youthful, radiant complexion.",60  
+Blemish Control Serum,"Clears breakouts, Reduces redness, Unclogs pores.","Salicylic Acid, Niacinamide, Tea Tree Oil","Target breakouts and blemishes with our Blemish Control Serum. Featuring salicylic acid, niacinamide, and tea tree oil, it unclogs pores, reduces redness, and promotes a clearer, healthier complexion.",38  
+Multi-Repair Serum,"Reduces wrinkles, Improves texture, Strengthens barrier.","Retinol, Bakuchiol, Ceramides","Experience comprehensive skin renewal with our Multi-Repair Serum. Formulated with retinol, bakuchiol, and ceramides, it targets signs of aging, improves texture, and restores a youthful glow.",65  
+Calming Chamomile Cream,"Soothes irritation, Reduces redness, Deep hydration.","Chamomile Extract, Allantoin, Shea Butter","Soothe and comfort sensitive skin with our Calming Chamomile Cream. Enriched with chamomile extract, allantoin, and shea butter, it reduces redness, calms irritation, and deeply hydrates for a balanced, healthy complexion.",36  
+Radiance Renewal Cream,"Brightens skin, Hydrates, Evens tone.","Vitamin C, Licorice Root, Hyaluronic Acid","Brighten and renew your complexion with our Radiance Renewal Cream. Infused with vitamin C, licorice root, and hyaluronic acid, it targets dullness, evens skin tone, and delivers lasting moisture for a luminous glow.",44  
+Balancing Oil-Free Cream,"Oil control, Hydrates, Minimizes pores.","Niacinamide, Green Tea Extract, Silica","Control shine and hydrate with our Balancing Oil-Free Cream. Lightweight and non-comedogenic, it features niacinamide and green tea to balance oil production, minimize pores, and leave your skin with a smooth, matte finish.",33

@@ -1,0 +1,60 @@
+in analyze query:
+
+in the first statement if the user query is missing in category: skin toner etc
+or a skin concern / skin type : mark for follow up
+
+follow up question:
+include examples for follow from pure prompt
+
+
+>> include a logic : if you have hit one follow up question >> either have enough information then recommend >> else ask another follow and show recomm
+try limiting the follow up to 1 ques  >> to calculate enough info, check for skin details and type,  gather details, avoid redundant info
+
+
+>> re rank the doc without llm instead directly with embeddings
+
+>> with latest llms we can remove this transformation of user query 
+
+>> remove additional data eg: support stuff inlude reviews in csv`
+
+
+
+>> res ex.
+
+{
+  "conversation": [
+    {
+      "role": "user",
+      "content": "hii"
+    },
+    {
+      "role": "assistant",
+      "content": "Hey there! Are you interested in chatting about your skin or hair today?"
+    },
+    {
+      "role": "user",
+      "content": "skin"
+    },
+    {
+      "role": "assistant",
+      "content": "Cool! What's your skin like on a typical day? Oily, dry, combination, or something else?"
+    },
+    {
+      "role": "user",
+      "content": "oily"
+    }
+  ],
+  "query": "oily",
+  "transformed_query": "",
+  "retrieved_documents": [],
+  "follow_up_question": "Got it. Do you have any specific goals for your oily skin, like reducing shine or managing breakouts?",
+  "recommendation": "",
+  "recommendation_query": "",
+  "is_follow_up": true,
+  "citations": [],
+  "ready_for_recommendation": false,
+  "session_id": "123"
+}
+
+
+based on above res. we got user skin type/ skin concern /skin goal >> recom combination of product cat. for oily skin, at least 7  
