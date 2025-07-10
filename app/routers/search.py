@@ -33,7 +33,15 @@ async def search(data: SearchRequest):
             conversation_history.append({"role": "assistant", "content": follow_up})
             logger.debug(f"Appended assistant response to cache: {follow_up}")
 
-        # 5. Save the updated conversation back to Redis
+        # 5. Append the recommendation content
+        if result.get("recommendation"):
+            # Append the recommendation content
+            conversation_history.append(
+                {"role": "assistant", "content": f"Recommendation: {result['recommendation']}"}
+            )
+            logger.debug(f"Appended recommendation to conversation history: {result['recommendation'][:50]}...")
+
+        # 6. Save the updated conversation back to Redis
         update_session(session_id, conversation_history)
 
         # Add session_id to the response
